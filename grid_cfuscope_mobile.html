@@ -5,8 +5,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>CFU Scope - Colony Forming Unit Counter</title>
-  <meta name="description" content="CFU Scope - iOS App">
+  <title>Grid CFU Scope - 3M Petrifilm &trade; Colony Forming Unit Counter</title>
+  <meta name="description" content="Grid CFU Scope - iOS App">
   <meta name="author" content="Kai Yang">
 
   <!-- Mobile Specific Metas
@@ -27,16 +27,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-  <script type="text/javascript">
-    if (screen.width <= 699) {
-      document.location = "cfuscope_mobile.html";
-    }
-  </script>
-
   <!-- Google
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
@@ -44,8 +34,18 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-76745412-2', 'auto');
+        ga('create', 'UA-76745412-3', 'auto');
         ga('send', 'pageview');
+  </script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script type="text/javascript">
+    if (screen.width > 699) {
+      document.location = "grid_cfuscope.html";
+    }
   </script>
 
 </head>
@@ -54,32 +54,19 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="section values">
+  <div class="section hero">
     <div class="container">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <!-- <img class="u-max-full-width" src="images/CFU_icon_sm.png"> -->
-      <h2>Fast and Precise CFU Counting</h2> 
-      <a href="https://itunes.apple.com/us/app/cfu-scope/id1104871540?ls=1&mt=8"><img class="u-max-full-width" src="images/App_Store_icon.png"></a>
-      <br>
-      <div class="copyright">&copy; 2017 Medixgraph, Inc. <span class="rights-reserved">All Rights Reserved. </span>| <a href="mailto:info@medixgraph.com">Contact</a> | <a href="https://www.facebook.com/medixgraph">Facebook</a> | <a href="http://medixgraph.com">Back</a></div>
-      <br>
+      <div class="row">
+        <div class="one-half column">
+          <h5 class="hero-heading">Fast and Precise 3M Petrifilm &trade; CFU Counting</h5>
+          <a href="https://itunes.apple.com/us/app/cfu-scope/id1104871540?ls=1&mt=8"><img class="u-max-full-width" src="images/App_Store_icon.png"></a>
+        </div>
+        <div class="copyright">&copy; 2017 Medixgraph, Inc. <span class="rights-reserved">All Rights Reserved. </span></div>
+        <div class="copyright"><a href="mailto:info@medixgraph.com">Contact</a> | <a href="https://www.facebook.com/medixgraph">Facebook</a> | <a href="http://medixgraph.com">Back</a></div>
+        <div class="one-half column phones">
+          <img class="phone" src="images/lab_ex_2.png">
+        </div>
+      </div>
     </div>
   </div>
 
