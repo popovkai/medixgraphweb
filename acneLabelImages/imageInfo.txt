@@ -4,3 +4,6 @@
 
 # textbook
 textbook/1.jpg
+
+# test
+test/1.jpg
