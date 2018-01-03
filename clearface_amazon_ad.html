@@ -33,6 +33,16 @@
 
   <!-- Google
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76745412-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-76745412-4');
+  </script>
+
 
   <!-- Amazon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -47,7 +57,7 @@
       var captured = /info=([^&]+)/.exec(url)[1];
       info = captured ? captured : '';
     }
-    console.log(info);
+    //console.log(info);
 
     var kw_1 = ["treatment", "cream", "wash", "prevention", "care", "control", "scrub", "cleaning"];
     var r_1 = Math.floor(Math.random() * kw_1.length);
@@ -55,7 +65,7 @@
     var kw_2 = ["face", "daily", "deep", ""];
     var r_2 = Math.floor(Math.random() * kw_2.length);
 
-    var kw_3 = ["organic", "oil-free", ""];
+    var kw_3 = ["organic", "oil-free", "night", "day", ""];
     var r_3 = Math.floor(Math.random() * kw_3.length);
 
     var search_words = "acne" + " " + kw_1[r_1] + " " + kw_2[r_2] + " " + kw_3[r_3] + " " + info
