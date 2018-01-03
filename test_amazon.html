@@ -39,9 +39,9 @@
   <script type="text/javascript">
 
     var url = window.location.href;
-    var captured = /info1=([^&]+)/.exec(url)[1];
-    var result = captured ? captured : '';
-    console.log(result);
+    var captured = /info=([^&]+)/.exec(url)[1];
+    var info = captured ? captured : '';
+    console.log(info);
 
     var kw_1 = ["treatment", "cream", "wash", "prevention", "care", "control", "scrub", "cleaning"];
     var r_1 = Math.floor(Math.random() * kw_1.length);
@@ -52,7 +52,7 @@
     var kw_3 = ["organic", "oil-free", ""];
     var r_3 = Math.floor(Math.random() * kw_3.length);
 
-    var search_words = "acne" + " " + kw_1[r_1] + " " + kw_2[r_2] + " " + kw_3[r_3];
+    var search_words = "acne" + " " + kw_1[r_1] + " " + kw_2[r_2] + " " + kw_3[r_3] + " " + info
 
     amzn_assoc_placement = "adunit0";
     amzn_assoc_search_bar = "true";
