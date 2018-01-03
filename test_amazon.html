@@ -38,6 +38,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript">
 
+    var url = window.location.href;
+    var captured = /info1=([^&]+)/.exec(url)[1];
+    var result = captured ? captured : '';
+    console.log(result);
+
     var kw_1 = ["treatment", "cream", "wash", "prevention", "care", "control", "scrub", "cleaning"];
     var r_1 = Math.floor(Math.random() * kw_1.length);
 
