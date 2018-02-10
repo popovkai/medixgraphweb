@@ -1,4 +1,4 @@
 # first set from ECHA
-set_1_small/1.jpg
-set_1_small/2.jpg
-set_1_small/3.jpg
+set_1_small/1.png
+set_1_small/2.png
+set_1_small/3.png
